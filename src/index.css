@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  /* scrap container */
+  .scrap-container {
+    @apply w-[85vw] xl:w-[95vw] m-auto;
+  }
+
+  /* hero container */
+  /* #hero-container {
+    background-image: url('./images/hero-image.jpg');
+    background-size:contain;
+  } */
+
+  /* buttons */
+  .button-emrald {
+    @apply bg-gradient-to-b from-emerald-500 to-green-500 shadow-lg shadow-emerald-400 rounded-full  sm:text-sm px-9 py-1.5 transition-all duration-200 active:scale-90 text-white;
+  }
+  .button-light {
+    @apply bg-gradient-to-b from-white to-slate-100 shadow-md shadow-slate-100 rounded-full sm:text-sm px-9 py-1.5 transition-all duration-200 active:scale-90 text-black;
+  
+  }
+
+  /* Shadows */
+  .drop-shadow-emrald {
+    filter: drop-shadow(0.1rem 0.1rem 1rem rgba(74 222 128 / 80%));
+  }
+
+  /* popUpState */
+  .showpopup {
+    opacity: 1;
+    visibility: visible;
+    transform: skewY(-1deg) translateY(10px);
+  }
+
+  .hidepopup {
+    opacity: 0;
+    visibility: hidden;
+    transform: skewY(1deg) translateY(-30px);
+  }
+
+  /* About section containers */
+  .about-container {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .backdrop-image {
+    opacity: 0.1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .about-content {
+    position: relative;
+    width: 90%;
+  }
+}
