@@ -6,7 +6,7 @@ import { aboutus, contactus, hero, navlinks, services } from './data/scrapmedata
 const App = () => {
   return (
     <div>
-      <div className='bg-gradient-to-b from-white to-black app-container'>
+      <div className='bg-slate-100'>
 
         <Navbar navlinks={navlinks} />
         <Hero hero={hero} />
