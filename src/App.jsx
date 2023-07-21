@@ -1,6 +1,7 @@
 import React from 'react';
-import { Navbar, Hero, Footer, About } from './components';
-import { aboutus, hero, navlinks } from './data/scrapmedata';
+import { Navbar, Hero, Footer, About, Services, ContactUs } from './components';
+import { aboutus, contactus, hero, navlinks, services } from './data/scrapmedata';
+// import Services from './components/Services';
 
 const App = () => {
   return (
@@ -10,6 +11,8 @@ const App = () => {
         <Navbar navlinks={navlinks} />
         <Hero hero={hero} />
         <About about={aboutus} />
+        <Services services={services} />
+        <ContactUs contact={contactus} />
       </div>
       <Footer />
     </div>

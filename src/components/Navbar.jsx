@@ -3,6 +3,7 @@ import logo from '../images/logo.png';
 import { NavLink } from 'react-router-dom';
 import menuIcon from '../icons/menu-icon.svg';
 import PopUpMenu from './PopUpMenu';
+import PhoneIcon from '../icons/phone-icon.svg';
 
 const Navbar = ({ navlinks }) => {
   const [popUpState, setPopUpState] = useState(false);
@@ -21,12 +22,12 @@ const Navbar = ({ navlinks }) => {
             <li><NavLink to={''} className='nav-button'>Services</NavLink></li>
             <li><NavLink to={''} className='nav-button'>Contact</NavLink></li> */}
             {navlinks.map((val, idx) => (
-              <li key={idx} className='rounded-lg py-2 '><NavLink to={val} className="text-lg text-slate-900 hover:bg-green-600 hover:text-slate-100 py-2 px-2 rounded-md hover:shadow-md font-bold hover:font-normal">{val.link}</NavLink></li>
+              <li key={idx} className='rounded-lg py-2 '><NavLink to={val} className="text-lg text-slate-900 hover:bg-green-600 hover:text-slate-100 py-2 px-3 rounded-md hover:shadow-md font-bold drop-shadow-sm">{val.link}</NavLink></li>
             ))}
           </ul>
           <ul className='flex items-center lg:hidden'>
-            <li><button type='button' className='button-emrald bg-green-600 text-black   text-base  flex items-center justify-center py-3 px-7 gap-1'>
-              <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/phone.png" alt="phone" className='w-6 ' /> +91 9876543210</button></li>
+            <li><button type='button' className='button-emrald bg-green-600 text-white  font-bold shadow-xl  flex items-center justify-center py-3 px-7 gap-1'>
+              <img width="50" height="50" src={PhoneIcon} alt="phone" className='w-6 text-black shadow-xl drop-shadow-xl' /> +91 9876543210</button></li>
           </ul>
           <ul className='hidden lg:flex items-center'>
             <li>

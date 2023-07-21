@@ -10,14 +10,14 @@ const Hero = ({ hero: { title, subTitle, text, btn1, btn2, img } }) => {
           <h1 className='text-5xl  lg:text-4xl md:text-3xl sm:text-2xl xsm:text-xl'>{subTitle} </h1>
           <p className='text-base my-5 text-center sm:text-sm'>{text} </p>
           <div className='flex items-center justify-center gap-11 sm:gap-3 sm:flex-col sm:w-full'>
-            <button type="button" className='button-emrald shadow-sm text-base'>{btn1}</button>
+            <button type="button" className='button-emrald text-base drop-shadow-lg shadow-xl'>{btn1}</button>
             {/* <button type="button" className='button-light'>{btn2}</button> */}
           </div>
         </div>
 
         {/* Hero Image */}
         <div className='flex items-center mb-11 '>
-          <img src={img} alt="dashboard/image" className='rounded-lg h-[85vh] w-full object-fill lg:h-[75vh] md:h-[57vh] sm:h-[42vh] sm:object-contain heroimage opacity-80' />
+          <img src={img} alt="dashboard/image" className='rounded-lg h-[85vh] w-full object-fill lg:h-[75vh] md:h-[57vh] sm:h-[42vh] sm:object-contain heroimage opacity-90 shadow-2xl' />
         </div>
       </div>
     </div>

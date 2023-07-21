@@ -1,9 +1,12 @@
 import heroImage from "../images/scrap-on-car.jpg";
 import plasticImg from "../images/plastic-scrap.jpg";
 import metalImg from "../images/metal-scrap.jpg";
-// import AlluminiumImg from "../images/pile-of-aluminium.jpg";
 import eWasteImg from "../images/ewaste.jpg";
-// import paperScrap from "../images/paper-scrap.jpg";
+import paperScrap from "../images/paper-scrap.jpeg";
+import alluminiumImg from "../images/alluminium-scrap.jpeg";
+import plasticBottleImg from "../images/plastic-bottle-scrap.jpg";
+import copperImg from "../images/copper-scrap.jpeg";
+import cardboardImg from "../images/cardboard-scrap.jpg";
 
 export const hero = {
     "title": "Welcome to ScrapMe",
@@ -23,25 +26,54 @@ export const navlinks = [
 
 export const services = [
     {
+        "id": 1,
         "service": "Plastic Recycling",
         "img": plasticImg,
         "description": "Recycling plastic waste to reduce environmental pollution"
     },
     {
+        "id": 2,
+        "service": "Plastic Bottle Recycling",
+        "img": plasticBottleImg,
+        "description": "Recycling plastic bottles to impact the environment positively"
+    },
+    {
+        "id": 3,
         "service": "Metal Recycling",
         "img": metalImg,
         "description": "Recovering valuable metals from discarded items"
     },
     {
+        "id": 4,
         "service": "E-waste Recycling",
         "img": eWasteImg,
         "description": "Safe disposal and recycling of electronic waste"
     },
     {
+        "id": 5,
         "service": "Paper Recycling",
-        // "img": "paper-image.jpg",
+        "img": paperScrap,
         "description": "Transforming paper waste into reusable materials"
+    },
+    {
+        "id": 6,
+        "service": "Aluminium Recycling",
+        "img": alluminiumImg,
+        "description": "Recycling aluminium to reduce energy consumption"
+    },
+    {
+        "id": 7,
+        "service": "Copper Recycling",
+        "img": copperImg,
+        "description": "Recycling copper to reduce environmental impact"
+    },
+    {
+        "id": 8,
+        "service": "Cardboard Recycling",
+        "img": cardboardImg,
+        "description": "Recycling cardboard to reduce landfill waste"
     }
+
 ];
 
 export const aboutus = {
@@ -51,6 +83,7 @@ export const aboutus = {
 };
 
 export const contactus = {
+    "name" : "Vamshinath Reddy K",  
     "phone" : "+91 9876543210",
     "email" : "vamshi@scrapme.com",
     "facebook" : "https://www.facebook.com/scrapme",
