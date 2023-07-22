@@ -84,11 +84,11 @@ export const aboutus = {
 
 export const contactus = {
     "name" : "Vamshinath Reddy K",  
-    "phone" : "+91 9876543210",
-    "email" : "vamshi@scrapme.com",
+    "phone" : "+91 9666622690",
+    "email" : "info@scrapme.com",
     "facebook" : "https://www.facebook.com/scrapme",
     "instagram" : "https://www.instagram.com/scrapme",
-    "address" : "123, 1st Road, XYZ",
+    "address" : "Amruthahalli, Bengaluru- 560090",
     "hours": "Monday - Friday: 9am - 5pm",
     "map": "https://www.google.com/maps?q=scrapme"
 };
