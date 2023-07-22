@@ -8,18 +8,18 @@ const Footer = () => {
         <nav className='flex items-center justify-center mt-5 gap-10'>
           <ul className='grid gap-1'>
             <h3 className='text-lg'>Navigate</h3>
-            <li><NavLink to={'#'} className='nav-button'>Home</NavLink></li>
-            <li><NavLink to={''} className='nav-button'>About</NavLink></li>
-            <li><NavLink to={''} className='nav-button'>Services</NavLink></li>
-            <li><NavLink to={''} className='nav-button'>Contact</NavLink></li>
+            <li><a href='#home' className='nav-button'>Home</a></li>
+            <li><a href='#about' className='nav-button'>About</a></li>
+            <li><a href='#services' className='nav-button'>Services</a></li>
+            <li><a href='#contact' className='nav-button'>Contact</a></li>
           </ul>
 
           <ul className='grid gap-1'>
             <h3 className='text-lg'>Follow us</h3>
-            <li><NavLink to={'#'} className='nav-button'>Facebook</NavLink></li>
-            <li><NavLink to={''} className='nav-button'>Instagram</NavLink></li>
-            <li><NavLink to={''} className='nav-button'>Send Query</NavLink></li>
-            <li><NavLink to={''} className='nav-button'>Contact us</NavLink></li>
+            <li><a href='#' className='nav-button'>Facebook</a></li>
+            <li><a href='#' className='nav-button'>Instagram</a></li>
+            <li><a href='#forms' className='nav-button'>Send Message</a></li>
+            <li><a href='#contact' className='nav-button'>Contact us</a></li>
 
           </ul>
 
@@ -27,10 +27,10 @@ const Footer = () => {
 
           <ul className='grid gap-1'>
             <h3 className='text-lg'>Company</h3>
-            <li><NavLink to={'#'} className='nav-button'>About</NavLink></li>
-            <li><NavLink to={''} className='nav-button'>Callback</NavLink></li>
-            <li><NavLink to={''} className='nav-button'>Contact</NavLink></li>
-            <li><NavLink to={''} className='nav-button'>Location</NavLink></li>
+            <li><a href='#about' className='nav-button'>About</a></li>
+            <li><a href='#forms' className='nav-button'>Callback</a></li>
+            <li><a href='#contact' className='nav-button'>Contact</a></li>
+            <li><a href='https://maps.google.com/?cid=11661797318443512105&entry=gps' className='nav-button'>Location</a></li>
           </ul>
         </nav>
       </div>

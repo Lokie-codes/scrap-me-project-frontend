@@ -30,7 +30,7 @@ const Forms = () => {
     };
 
     return (
-        <div className='flex items-center justify-center'>
+        <div id='forms' className='flex items-center justify-center'>
             <div className='w-1/3 m-3 p-5 sm:hidden md:hidden lg:w-1/3'>
                 <img src={callBackImg} alt="callback/png" />
             </div>
