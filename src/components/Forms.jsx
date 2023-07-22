@@ -30,22 +30,22 @@ const Forms = () => {
                     {/* Name */}
                     <div className='flex items-center justify-center gap-2 px-3 py-2 mx-1'>
                         <label htmlFor="name" className='drop-shadow-md text-center w-1/4'>Name</label>
-                        <input type="text" placeholder='John Doe' autoComplete='name' value={formData.name} onChange={handleChange} className='shadow-lg px-5 py-3 rounded-md w-fit bg-slate-300' id='name' name='name' />
+                        <input type="text" required placeholder='John Doe' autoComplete='name' value={formData.name} onChange={handleChange} className='shadow-lg px-5 py-3 rounded-md w-fit bg-slate-300' id='name' name='name' />
                     </div>
                     {/* Phone */}
                     <div className='flex items-center justify-center gap-2 px-3 py-2 mx-1'>
                         <label htmlFor="phone" className='drop-shadow-md text-center w-1/4'>Phone</label>
-                        <input type="tel" name="phone" id="phone" autoComplete='tel' value={formData.phone} onChange={handleChange} className='shadow-lg m-1/2 px-5 py-3 rounded-md w-fit bg-slate-300' placeholder='9876543210' />
+                        <input type="tel" required name="phone" id="phone" autoComplete='tel' value={formData.phone} onChange={handleChange} className='shadow-lg m-1/2 px-5 py-3 rounded-md w-fit bg-slate-300' placeholder='9876543210' />
                     </div>
                     {/* Email */}
                     <div className='flex items-center justify-center gap-2 px-3 py-2 mx-1'>
                         <label htmlFor="email" className='drop-shadow-md text-center w-1/4'>Email</label>
-                        <input type="email" name="email" id="email" autoComplete='email' value={formData.email} onChange={handleChange} className='shadow-lg px-5 py-3 rounded-md w-fit bg-slate-300' placeholder='john.doe@example.com' />
+                        <input type="email" required name="email" id="email" autoComplete='email' value={formData.email} onChange={handleChange} className='shadow-lg px-5 py-3 rounded-md w-fit bg-slate-300' placeholder='john.doe@example.com' />
                     </div>
                     {/* Address */}
                     <div className='flex items-center justify-center gap-2 px-3 py-2 mx-1'>
                         <label htmlFor="location" className='drop-shadow-md text-center w-1/4 '>Address</label>
-                        <input type="text" name="location" id="location" autoComplete="street-address" className='shadow-lg  px-5 py-3 rounded-md w-fit bg-slate-300' value={formData.location} onChange={handleChange} placeholder='cityname' />
+                        <input type="text" name="location" required id="location" autoComplete="street-address" className='shadow-lg  px-5 py-3 rounded-md w-fit bg-slate-300' value={formData.location} onChange={handleChange} placeholder='cityname' />
                     </div>
                     {/* Company Name */}
                     <div className='flex items-center justify-center gap-2 px-3 py-2 mx-1'>

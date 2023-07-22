@@ -4,6 +4,7 @@ const Services = ({ services }) => {
     return (
         <div className='services-container bg-gradient-to-b from-green-600 via-green-500 to-green-600 rounded-lg mx-7 my-5 py-5 px-4 bg-cover '>
             <h1 className='text-center text-5xl sm:text-3xl py-3 text-black drop-shadow-xl md:text-4xl font-bold lg:text-5xl'>Our Services</h1>
+            <p className='text-center text-lg sm:text-md drop-shadow-sm md:text-md lg:text-lg'>We buy all your recyclables at best price</p>
             <div className='flex flex-row sm:flex-col md:flex-col lg:flex-row flex-wrap items-center justify-center'>
                 {services.map((service) => {
                     return (
