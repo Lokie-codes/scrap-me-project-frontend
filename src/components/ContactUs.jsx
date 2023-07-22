@@ -9,7 +9,7 @@ const ContactUs = ({ contact }) => {
 
 
     return (
-        <div className='contact-container bg-white mx-9 mt-3.5 rounded-lg p-5 gap-5'>
+        <div id='contact' className='contact-container bg-white mx-9 mt-3.5 rounded-lg p-5 gap-5'>
             <div className='contact-card grid items-center justify-center gap-3 sm:w-full bg-gradient-to-r from-green-500 via-green-600 to-green-500 rounded-lg'>
                 <h1 className='text-center text-5xl sm:text-3xl py-3 text-black drop-shadow-xl md:text-4xl font-bold lg:text-5xl mt-5'>Contact Us</h1>
                 <div className='flex items-center justify-center'>

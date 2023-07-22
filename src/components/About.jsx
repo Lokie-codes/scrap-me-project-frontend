@@ -4,7 +4,7 @@ import backdropImage from '../images/hero-image.jpg';
 const About = ({ about }) => {
     // console.log(about);
     return (
-        <div className='about-container flex items-center justify-center '>
+        <div id='about' className='about-container flex items-center justify-center '>
             <img src={backdropImage} className='backdrop-image' alt='backdrop/piles-of-scrap' />
             <div className='about-content mx-5 my-5 py-5 px-4 bg-cover grid gap-5 bg-gradient-to-b from-green-500 to-green-700'>
                 <div>

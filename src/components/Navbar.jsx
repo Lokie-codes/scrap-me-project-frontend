@@ -13,21 +13,36 @@ const Navbar = ({ navlinks }) => {
     <div>
       <header className='flex items-center justify-center w-auto h-auto absolute top-5 left-0 right-0'>
         <nav className='flex items-center justify-between scrap-container'>
-          <NavLink to={`/`} className='flex items-center'>
+          <a href='#top' className='flex items-center'>
             <img src={logo} alt="logo/img" className='w-18 h-20 object-fill sm:w-16 sm:h-16' />
-          </NavLink>
+          </a>
           <ul className='flex items-center lg:hidden gap-7'>
-            {/* <li><NavLink to={'#'} className='nav-button'>Home</NavLink></li>
-            <li><NavLink to={''} className='nav-button'>About</NavLink></li>
-            <li><NavLink to={''} className='nav-button'>Services</NavLink></li>
-            <li><NavLink to={''} className='nav-button'>Contact</NavLink></li> */}
-            {navlinks.map((val, idx) => (
-              <li key={idx} className='rounded-lg py-2 '><NavLink to={val} className="text-lg text-slate-900 hover:bg-green-600 hover:text-slate-100 py-2 px-3 rounded-md hover:shadow-md font-bold drop-shadow-sm">{val.link}</NavLink></li>
-            ))}
+            <li className='rounded-lg py-2 '>
+              <a href='#home' className="text-lg text-slate-900 hover:bg-green-600 hover:text-slate-100 py-2 px-3 rounded-md hover:shadow-md font-bold drop-shadow-sm">
+                Home
+              </a>
+            </li>
+            <li className='rounded-lg py-2 '>
+              <a href='#about' className="text-lg text-slate-900 hover:bg-green-600 hover:text-slate-100 py-2 px-3 rounded-md hover:shadow-md font-bold drop-shadow-sm">
+                About
+              </a>
+            </li>
+            <li className='rounded-lg py-2 '>
+              <a href='#services' className="text-lg text-slate-900 hover:bg-green-600 hover:text-slate-100 py-2 px-3 rounded-md hover:shadow-md font-bold drop-shadow-sm">
+                Services
+              </a>
+            </li>
+            <li className='rounded-lg py-2 '>
+              <a href='#contact' className="text-lg text-slate-900 hover:bg-green-600 hover:text-slate-100 py-2 px-3 rounded-md hover:shadow-md font-bold drop-shadow-sm">
+                Contact
+              </a>
+            </li>
           </ul>
           <ul className='flex items-center lg:hidden'>
-            <li><button type='button' className='button-emrald bg-green-600 text-white  font-bold shadow-xl  flex items-center justify-center py-3 px-7 gap-1'>
-              <img width="50" height="50" src={PhoneIcon} alt="phone" className='w-6 text-black shadow-xl drop-shadow-xl' /> +91 9876543210</button></li>
+            <li><a href="#contact">
+              <button type='button' className='button-emrald bg-green-600 text-white  font-bold shadow-xl  flex items-center justify-center py-3 px-7 gap-1'>
+                <img width="50" height="50" src={PhoneIcon} alt="phone" className='w-6 text-black shadow-xl drop-shadow-xl' /> +91 9876543210</button>
+            </a></li>
           </ul>
           <ul className='hidden lg:flex items-center'>
             <li>
@@ -39,7 +54,7 @@ const Navbar = ({ navlinks }) => {
         </nav>
       </header>
       <PopUpMenu navlinks={navlinks} popUpState={popUpState} />
-    </div>
+    </div >
   )
 }
 

@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import callBackImg from '../images/callback-photo.png';
+import axios from 'axios';
 
 const Forms = () => {
 
-    const [formData, setFormData] = useState({ name: "", email: "", phone: "", location: "", company: "", whatsapp: "", message: "" });
+    const [formData, setFormData] = useState({ name: "", email: "", phone: "", location: "", company: "", message: "" });
 
     const handleChange = (event) => {
         const { name, value } = event.target;
@@ -12,7 +13,20 @@ const Forms = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        alert('Name : ${formData.name} ');
+        alert('Name : ' + formData.name + '\nEmail : ' + formData.email + '\nPhone : ' + formData.phone + '\nLocation : ' + formData.location + '\nCompany : ' + formData.company + '\nMessage : ' + formData.message + '\n');
+        axios.post('http://localhost:8000/api/forms/', {
+            name: formData.name,
+            email: formData.email,
+            phone: formData.phone,
+            location: formData.location,
+            company: formData.company,
+            message: formData.message,
+        }).then((res) => {
+            setFormData((prevFormData) => ({ ...prevFormData, name: "", email: "", phone: "", location: "", company: "", message: "" }));
+            alert('Form submitted successfully');
+        }).catch((err) => {
+            console.log(err.message);
+        });
     };
 
     return (
