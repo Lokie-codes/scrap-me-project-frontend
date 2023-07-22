@@ -3,6 +3,7 @@ import mapIcon from '../icons/map-icon.svg';
 import facebookIcon from '../icons/facebook-icon.svg';
 import instagramIcon from '../icons/instagram-icon.svg';
 import contactPhoto from '../images/contact-photo.png';
+import Forms from './Forms.jsx';
 
 const ContactUs = ({ contact }) => {
 
@@ -31,7 +32,9 @@ const ContactUs = ({ contact }) => {
                     <div className='w-1/2 m-3 p-5 sm:hidden md:hidden lg:w-1/2'>
                         <img src={contactPhoto} alt="contact/png" />
                     </div>
+
                 </div>
+                <Forms />
             </div>
         </div >
     )

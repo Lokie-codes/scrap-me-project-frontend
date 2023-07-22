@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import callBackImg from '../images/callback-photo.png';
 
-const Form = () => {
+const Forms = () => {
 
     const [formData, setFormData] = useState({ name: "", email: "", phone: "", location: "", company: "", whatsapp: "", message: "" });
 
@@ -67,4 +67,4 @@ const Form = () => {
     )
 }
 
-export default Form
+export default Forms
