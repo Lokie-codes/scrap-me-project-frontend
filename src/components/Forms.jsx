@@ -40,8 +40,7 @@ const Forms = () => {
                     <p className='text-md drop-shadow-md'>Please feel free to get in touch using the form below.</p>
                     <p>We'd love to hear from you.</p>
                 </div> */}
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWe-O6KAmoFbnm48oTmCLrxf_CICHzybd9hNm13-7Q-yKmgg/viewform?embedded=true" className='sm:w-fit' width="640" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeqjgySlbEYsWE0OVQpzuy74pq31VYrqvqmOUJtbRsapR4j7Q/viewform?embedded=true" className='sm:w-fit' width="640" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                
             </div>
         </div>

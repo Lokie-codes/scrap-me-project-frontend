@@ -25,8 +25,8 @@ const ContactUs = ({ contact }) => {
                             </h3>   
                         </div>
                         <div className='flex items-center justify-center gap-3 '>
-                            <button className='flex items-center bg-slate-100 px-4 py-3 rounded-xl drop-shadow-lg mx-4 my-3'><img src={facebookIcon} alt="fb/icon" className='w-7' />@facebook</button>
-                            <button className='flex items-center bg-slate-100 px-4 py-3 rounded-xl drop-shadow-lg mx-4 my-3'><img src={instagramIcon} alt="insta/icon" className='w-7' />@instagram</button>
+                            <a href='#' className='flex items-center bg-slate-100 px-4 py-3 rounded-xl drop-shadow-lg mx-4 my-3'><img src={facebookIcon} alt="fb/icon" className='w-7' />@facebook</a>
+                            <a href='https://instagram.com/scrapme.live?igshid=MzRlODBiNWFlZA==' className='flex items-center bg-slate-100 px-4 py-3 rounded-xl drop-shadow-lg mx-4 my-3'><img src={instagramIcon} alt="insta/icon" className='w-7' />@instagram</a>
                         </div>
                     </div>
                     <div className='w-1/2 m-3 p-5 sm:hidden md:hidden lg:w-1/2'>
