@@ -19,14 +19,14 @@ const ContactUs = ({ contact }) => {
                             <h3 className='bg-slate-200 px-4 py-5 rounded-md text-lg drop-shadow-lg'>Phone : {contact.phone}</h3>
                             <h3 className='bg-slate-200 px-4 py-5 rounded-md text-lg drop-shadow-lg'>Email : {contact.email} </h3>
                             <h3 className='bg-slate-200 px-4 py-5 rounded-md text-lg drop-shadow-lg flex gap-2'>Address : {contact.address}
-                                <a href="https://maps.google.com/?cid=11661797318443512105&entry=gps"className='p-3 m-2 w-21'>
+                                <a href="https://maps.google.com/?cid=11661797318443512105&entry=gps" className='p-3 m-2 w-21'>
                                     <img src={mapIcon} alt="map/icon" className='w-6 ' />
                                 </a>
-                            </h3>   
+                            </h3>
                         </div>
                         <div className='flex items-center justify-center gap-3 '>
-                            <a href='#' className='flex items-center bg-slate-100 px-4 py-3 rounded-xl drop-shadow-lg mx-4 my-3'><img src={facebookIcon} alt="fb/icon" className='w-7' />@facebook</a>
-                            <a href='https://instagram.com/scrapme.live?igshid=MzRlODBiNWFlZA==' className='flex items-center bg-slate-100 px-4 py-3 rounded-xl drop-shadow-lg mx-4 my-3'><img src={instagramIcon} alt="insta/icon" className='w-7' />@instagram</a>
+                            <a target='_blank' href='https://www.facebook.com/profile.php?id=100095494356304&mibextid=2JQ9oc' className='flex items-center bg-slate-100 px-4 py-3 rounded-xl drop-shadow-lg mx-4 my-3'><img src={facebookIcon} alt="fb/icon" className='w-7' />@facebook</a>
+                            <a target='_blank' href='https://instagram.com/scrapme.live?igshid=MzRlODBiNWFlZA==' className='flex items-center bg-slate-100 px-4 py-3 rounded-xl drop-shadow-lg mx-4 my-3'><img src={instagramIcon} alt="insta/icon" className='w-7' />@instagram</a>
                         </div>
                     </div>
                     <div className='w-1/2 m-3 p-5 sm:hidden md:hidden lg:w-1/2'>

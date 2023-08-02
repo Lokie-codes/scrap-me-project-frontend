@@ -41,7 +41,7 @@ const Navbar = ({ navlinks }) => {
           <ul className='flex items-center lg:hidden'>
             <li><a href="#contact">
               <button type='button' className='button-emrald bg-green-600 text-white  font-bold shadow-xl  flex items-center justify-center py-3 px-7 gap-1'>
-                <img width="50" height="50" src={PhoneIcon} alt="phone" className='w-6 text-black shadow-xl drop-shadow-xl' /> +91 9876543210</button>
+                <img width="50" height="50" src={PhoneIcon} alt="phone" className='w-6 text-black shadow-xl drop-shadow-xl' /> +91 9666622690</button>
             </a></li>
           </ul>
           <ul className='hidden lg:flex items-center'>
