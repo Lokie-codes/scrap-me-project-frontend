@@ -9,6 +9,7 @@ import cardboardImg from "../images/cardboard-scrap.jpeg";
 import wireScrape from "../images/wire-scrap.jpg";
 import shreddingImg from "../images/shredding.jpeg";
 import otherScrapImg from "../images/other-scrap.jpeg";
+import ironScrapImg from "../images/iron-scrap.jpeg";
 
 export const hero = {
     "title": "Welcome to ScrapMe",
@@ -20,10 +21,10 @@ export const hero = {
 };
 
 export const navlinks = [
-    { link: "Home", id: "home"},
-    { link: "About", id: "about"},
-    { link: "Services", id: "services"},
-    { link: "Contact", id: "contact"},
+    { link: "Home", id: "home" },
+    { link: "About", id: "about" },
+    { link: "Services", id: "services" },
+    { link: "Contact", id: "contact" },
 ];
 
 export const services = [
@@ -86,6 +87,12 @@ export const services = [
         "service": "Shredding the documents",
         "img": shreddingImg,
         "description": "Shredding the documents to reduce the risk of identity theft"
+    },
+    {
+        "id": 11,
+        'service': 'Iron Scrap',
+        'img': ironScrapImg,
+        'description': 'Recycling iron scrap to reduce landfill waste'
     }
 
 ];
@@ -97,18 +104,18 @@ export const aboutus = {
 };
 
 export const contactus = {
-    "name" : "Vamshinath Reddy K",  
-    "phone" : "+91 9666622690",
-    "email" : "contact@scrapme.live",
-    "facebook" : "https://www.facebook.com/scrapme",
-    "instagram" : "https://www.instagram.com/scrapme",
-    "address" : "Amruthahalli, Bengaluru- 560090",
+    "name": "Vamshinath Reddy K",
+    "phone": "+91 9666622690",
+    "email": "contact@scrapme.live",
+    "facebook": "https://www.facebook.com/scrapme",
+    "instagram": "https://www.instagram.com/scrapme",
+    "address": "Amruthahalli, Bengaluru- 560090",
     "hours": "Monday - Friday: 9am - 5pm",
     "map": "https://www.google.com/maps?q=scrapme"
 };
 
 export const intro = {
-    "title" : "Welcome to ScrapMe",
+    "title": "Welcome to ScrapMe",
     "description": "Scrap Me is a scrap collection business in Bengaluru that collects various types of scrap from homes, pays fair compensation, and ensures environmentally responsible disposal and recycling. Our motivation lies in promoting sustainability, reducing landfill waste, and supporting the local economy.",
 };
 
