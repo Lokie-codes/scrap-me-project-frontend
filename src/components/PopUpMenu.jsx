@@ -11,7 +11,7 @@ const PopUpMenu = ({ navlinks, popUpState }) => {
                     {navlinks?.map((val, i) => (
                         <li key={i} className='sm:text-white sm:font-semibold  hover:text-black sm:drop-shadow-2xl'><NavLink to={'#'}>{val.link}</NavLink></li>
                     ))}
-                    <li><button type="button" className='button-light flex items-center justify-center gap-3 sm:w-auto px-6 py-2 rounded-full'><img width="50" height="50" src="https://img.icons8.com/ios/50/phone--v1.png" alt="phone--v1" className='w-5' /> +91 9876543210</button></li>
+<li><button type="button" className='button-light flex items-center justify-center gap-3 sm:w-auto px-6 py-2 rounded-full'><img width="50" height="50" src="https://img.icons8.com/ios/50/phone--v1.png" alt="phone--v1" className='w-5' /> +91 9666622690</button></li>
                 </ul>
 
             </nav>
